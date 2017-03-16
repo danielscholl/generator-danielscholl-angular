@@ -1,0 +1,43 @@
+$gray-base:           #000 !default;
+$gray-darker:           lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:             lighten($gray-base, 20%) !default;   // #333
+$gray:                  lighten($gray-base, 33.5%) !default; // #555
+$gray-light:            lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:          lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         darken(#428bca, 6.5%) !default; // #337ab7
+$brand-success:         #5cb85c !default;
+$brand-info:            #5bc0de !default;
+$brand-warning:         #f0ad4e !default;
+$brand-danger:          #d9534f !default;
+
+/* Primary */
+$red:								    #cd040b;
+$black:                 #000000;
+$white:                 #ffffff;
+
+/* Background Gray */
+$bg-gray-1:					    #E4E5E3;
+$bg-gray:               #F6F6F6;
+
+/* Functional Gray */
+$charcoal:					    #333333;
+$gray:							    #4B4B4B;
+$light-gray:				    #959595;
+$lighter-gray:			    #CCCCCC;
+
+/* UI Colors */
+$red-hover:					    #A80309;
+$red-active:				    #990308;
+$blue-link:    		      #0066CC;
+$blue-link-hover:	      #00478E;
+
+/* Pops */
+$pop-teal:							#82CEAC;
+$pop-gold:							#FBD362;
+$pop-sky:								#ABE0F9;
+$pop-green:							#E9F8E9;
+$pop-blue:							#E8F6FE;
+$pop-yellow:						#FEFFE4;
+$pop-salmon:						#F9B295;
+$pop-orange:						#FEF0E8;

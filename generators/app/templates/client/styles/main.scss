@@ -1,0 +1,33 @@
+@import "../app/shared/index";
+@import "./icons";
+@import "./fonts";
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  font-family: "Roboto", "sans-serif";
+  font-weight:400;
+  margin-bottom: 90px;
+
+  .container {
+    padding: 20px 15px 0;
+  }
+}
+.body-content {
+  margin-top: 20px;
+}
+
+.font-container > .row {
+  line-height:200%;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.container-fluid {
+  max-width: 1185px;
+}

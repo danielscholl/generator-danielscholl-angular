@@ -1,0 +1,39 @@
+@import "../../shared/index";
+
+$asset-pipeline: false !default;
+
+.vz-icons {
+  width: 100%;
+  text-align: center;
+  .icon-container {
+    margin: 0 0 10px;
+    display: inline-block;
+    padding: 0.5em;
+    min-width: 18%;
+    width: auto;
+    [class^="icon-"],
+    [class*=" icon-"] {
+      display: block;
+      height: 80px;
+      font-size: 1.5em;
+      line-height: 100px;
+      cursor: pointer;
+      transition: all .3s ease-in-out;
+      &:hover {
+      	font-size: 3em;
+      }
+    }
+    .glyphicon-class {
+      display: block;
+      text-align: center;
+      word-wrap: break-word;
+    }
+  }
+  .icon-name {
+    margin: 5px 0 0;
+    display: block;
+    color: #aaa;
+    font-size: .8em;
+    transition: all .3s ease-in-out;
+  }
+}
